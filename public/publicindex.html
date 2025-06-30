@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>MakeImpactug</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header><h1>MakeImpactug</h1></header>
+  <main>
+    <section>
+      <h2>Support Our Cause</h2>
+      <button id="donateBtn">Donate via Stripe</button>
+    </section>
+    <section>
+      <h2>Leave a Comment</h2>
+      <form id="commentForm">
+        <input type="text" id="name" placeholder="Your Name" required/>
+        <textarea id="comment" placeholder="Your Comment" required></textarea>
+        <button type="submit">Post Comment</button>
+      </form>
+      <div id="commentsList"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
